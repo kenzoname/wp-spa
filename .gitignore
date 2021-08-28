@@ -1,0 +1,10 @@
+*.iml
+.DS_Store
+.idea
+*.iml
+venv
+theme-builder/node_modules
+.venv
+.mypy_cache
+.venv
+venv
