@@ -1,0 +1,6 @@
+<div class="list-post">
+    <div *ngFor="let item of data" class="post-item">
+        <h2><a [routerLink]="['/post/', item.slug]">{{item.title?.rendered}}</a></h2>
+        <span>{{item.modified | date:'M/d/yy, h:mm a' }}</span>
+    </div>
+</div>
